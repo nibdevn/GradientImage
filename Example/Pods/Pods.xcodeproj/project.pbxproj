@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5F48E21A37F4FDAD272F444C11C7B0 /* GradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBD8D3B0B37ACA2D49B7C4158EFB41 /* GradientDirection.swift */; };
+		8736ABCA937D6F9D2AC9B638F78018D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A6D410E7AB595BFF144A292532393416 /* Pods-GradientImage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 657A3C9F9159D2C0C9DDF2C583AFC4AD /* Pods-GradientImage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23BE2F3035D06F4BBF4C4D2DD399961 /* GradientImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B89A9B7F1FF55A0A252818B4E58B5B4 /* GradientImage-dummy.m */; };
+		B4A9B5DFF3394BA500B990951758FCED /* GradientImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71756B2BFDC5F5BBF1FFD0433BC76B15 /* GradientImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB27FE9486E11EB8B346B17F2E3F2DA /* GradientImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F1E519C50DE6A94C36FE5D5415C10 /* GradientImage.swift */; };
+		D0DDE58F0CAAB0FE06AE1DDD0C6C7960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E67566A7323659EF355CED90BBC6791B /* Pods-GradientImage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB7FAAB56F8EB91C2880C9037D969F /* Pods-GradientImage_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D057A20B3A857CB80EF351527D354F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE0E3351F6BE98427394E579E421D82;
+			remoteInfo = GradientImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11AA8E6B9B7C4B700CC2EE3B71A016E3 /* Pods-GradientImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GradientImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1710D06D81E5C5900F7F5FE55F7CA960 /* Pods-GradientImage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GradientImage_Example.modulemap"; sourceTree = "<group>"; };
+		37A816CEC380572A1ABBE022A10801E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4493777C5FAEB81439B108D959E5A22A /* Pods_GradientImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GradientImage_Example.framework; path = "Pods-GradientImage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B639AFC365BFBD39502F79F12172E0 /* GradientImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GradientImage.framework; path = GradientImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEB7FAAB56F8EB91C2880C9037D969F /* Pods-GradientImage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GradientImage_Example-dummy.m"; sourceTree = "<group>"; };
+		5EBF2CA44FDD02A4336D672C31A5A99E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		657A3C9F9159D2C0C9DDF2C583AFC4AD /* Pods-GradientImage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GradientImage_Example-umbrella.h"; sourceTree = "<group>"; };
+		683169575B7FE07489627A734FAE3E63 /* GradientImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientImage-prefix.pch"; sourceTree = "<group>"; };
+		6C0F1E519C50DE6A94C36FE5D5415C10 /* GradientImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientImage.swift; path = GradientImage/Sources/GradientImage.swift; sourceTree = "<group>"; };
+		6D0A1A94F472DCB9DF6E45DB449E2D4B /* Pods-GradientImage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GradientImage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		71756B2BFDC5F5BBF1FFD0433BC76B15 /* GradientImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientImage-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B89A9B7F1FF55A0A252818B4E58B5B4 /* GradientImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientImage-dummy.m"; sourceTree = "<group>"; };
+		814B26CA66D50E60C44564F3BC0259C9 /* Pods-GradientImage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GradientImage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		83E0762CF90C2B2CD563E0FC8721A959 /* GradientImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GradientImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C878F72763B6F5712859B5029268995 /* GradientImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientImage.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EE9DB50769A4D0CFBBC3A351F66543A /* Pods-GradientImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GradientImage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A4699E87C272FFB0657D49DAC297B2AD /* Pods-GradientImage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GradientImage_Example-Info.plist"; sourceTree = "<group>"; };
+		ACDBD8D3B0B37ACA2D49B7C4158EFB41 /* GradientDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDirection.swift; path = GradientImage/Sources/GradientDirection.swift; sourceTree = "<group>"; };
+		B9A4942815FC64CB87152495219E94BD /* GradientImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientImage-Info.plist"; sourceTree = "<group>"; };
+		C66D0E0D48AAF7D902228F021C19A103 /* GradientImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientImage.modulemap; sourceTree = "<group>"; };
+		CB30121F64F955AEE3463E5A347FACCE /* GradientImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientImage.debug.xcconfig; sourceTree = "<group>"; };
+		D2A297FC66CAD5AECA40D6B7489E5BD4 /* Pods-GradientImage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GradientImage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF60B9246F6DEF4F717BC492EA0F466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DDE58F0CAAB0FE06AE1DDD0C6C7960 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03530B506F98BC91355245F69845B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8736ABCA937D6F9D2AC9B638F78018D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52990EBDC0B430CC724457723F6FAB58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C66D0E0D48AAF7D902228F021C19A103 /* GradientImage.modulemap */,
+				7B89A9B7F1FF55A0A252818B4E58B5B4 /* GradientImage-dummy.m */,
+				B9A4942815FC64CB87152495219E94BD /* GradientImage-Info.plist */,
+				683169575B7FE07489627A734FAE3E63 /* GradientImage-prefix.pch */,
+				71756B2BFDC5F5BBF1FFD0433BC76B15 /* GradientImage-umbrella.h */,
+				CB30121F64F955AEE3463E5A347FACCE /* GradientImage.debug.xcconfig */,
+				8C878F72763B6F5712859B5029268995 /* GradientImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GradientImage";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C8D20A05B3044D1EBE23D0951CF4E06 /* GradientImage */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBD8D3B0B37ACA2D49B7C4158EFB41 /* GradientDirection.swift */,
+				6C0F1E519C50DE6A94C36FE5D5415C10 /* GradientImage.swift */,
+				770D9440A949F5AB54DFC9090933CF8F /* Pod */,
+				52990EBDC0B430CC724457723F6FAB58 /* Support Files */,
+			);
+			name = GradientImage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		770D9440A949F5AB54DFC9090933CF8F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				83E0762CF90C2B2CD563E0FC8721A959 /* GradientImage.podspec */,
+				5EBF2CA44FDD02A4336D672C31A5A99E /* LICENSE */,
+				37A816CEC380572A1ABBE022A10801E1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7850DD3EA2F5976090D9DB311F5D1D52 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C8D20A05B3044D1EBE23D0951CF4E06 /* GradientImage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8BD5E3BBB5B1801C7AB908B4D5C41A79 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED80E65DAD52815DB081E96E3EE7F71C /* Pods-GradientImage_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7850DD3EA2F5976090D9DB311F5D1D52 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FB0F7711B240ABDCBBBA2A2543D2539D /* Products */,
+				8BD5E3BBB5B1801C7AB908B4D5C41A79 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED80E65DAD52815DB081E96E3EE7F71C /* Pods-GradientImage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1710D06D81E5C5900F7F5FE55F7CA960 /* Pods-GradientImage_Example.modulemap */,
+				D2A297FC66CAD5AECA40D6B7489E5BD4 /* Pods-GradientImage_Example-acknowledgements.markdown */,
+				6D0A1A94F472DCB9DF6E45DB449E2D4B /* Pods-GradientImage_Example-acknowledgements.plist */,
+				5CEB7FAAB56F8EB91C2880C9037D969F /* Pods-GradientImage_Example-dummy.m */,
+				814B26CA66D50E60C44564F3BC0259C9 /* Pods-GradientImage_Example-frameworks.sh */,
+				A4699E87C272FFB0657D49DAC297B2AD /* Pods-GradientImage_Example-Info.plist */,
+				657A3C9F9159D2C0C9DDF2C583AFC4AD /* Pods-GradientImage_Example-umbrella.h */,
+				11AA8E6B9B7C4B700CC2EE3B71A016E3 /* Pods-GradientImage_Example.debug.xcconfig */,
+				9EE9DB50769A4D0CFBBC3A351F66543A /* Pods-GradientImage_Example.release.xcconfig */,
+			);
+			name = "Pods-GradientImage_Example";
+			path = "Target Support Files/Pods-GradientImage_Example";
+			sourceTree = "<group>";
+		};
+		FB0F7711B240ABDCBBBA2A2543D2539D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B639AFC365BFBD39502F79F12172E0 /* GradientImage.framework */,
+				4493777C5FAEB81439B108D959E5A22A /* Pods_GradientImage_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		367B1DDE4E9822A8AD0A1AE417AA9AA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A9B5DFF3394BA500B990951758FCED /* GradientImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53FF0947C04DEDB1791DA57A6ACC20F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D410E7AB595BFF144A292532393416 /* Pods-GradientImage_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9AE0E3351F6BE98427394E579E421D82 /* GradientImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051D83F203F68B78F4D4B663FC781803 /* Build configuration list for PBXNativeTarget "GradientImage" */;
+			buildPhases = (
+				367B1DDE4E9822A8AD0A1AE417AA9AA4 /* Headers */,
+				D0583BFA4DA408657B27F67284C62FEA /* Sources */,
+				B03530B506F98BC91355245F69845B25 /* Frameworks */,
+				3F5DEB369741004552EC3236EAC76488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientImage;
+			productName = GradientImage;
+			productReference = 44B639AFC365BFBD39502F79F12172E0 /* GradientImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFF4CA424AE9AB1EDAFCD2CA2F69B1F7 /* Pods-GradientImage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4C7B3102699740F63412683CE9ED6E /* Build configuration list for PBXNativeTarget "Pods-GradientImage_Example" */;
+			buildPhases = (
+				53FF0947C04DEDB1791DA57A6ACC20F8 /* Headers */,
+				1FF28569DA0582178261AE9B18F2F45B /* Sources */,
+				AEF60B9246F6DEF4F717BC492EA0F466 /* Frameworks */,
+				A8AE3CFDCAE3889CF0729472182299D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03A8B0E77F765B2B2FFFBD79769598FD /* PBXTargetDependency */,
+			);
+			name = "Pods-GradientImage_Example";
+			productName = "Pods-GradientImage_Example";
+			productReference = 4493777C5FAEB81439B108D959E5A22A /* Pods_GradientImage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FB0F7711B240ABDCBBBA2A2543D2539D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE0E3351F6BE98427394E579E421D82 /* GradientImage */,
+				BFF4CA424AE9AB1EDAFCD2CA2F69B1F7 /* Pods-GradientImage_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F5DEB369741004552EC3236EAC76488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AE3CFDCAE3889CF0729472182299D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF28569DA0582178261AE9B18F2F45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67566A7323659EF355CED90BBC6791B /* Pods-GradientImage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0583BFA4DA408657B27F67284C62FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F48E21A37F4FDAD272F444C11C7B0 /* GradientDirection.swift in Sources */,
+				B23BE2F3035D06F4BBF4C4D2DD399961 /* GradientImage-dummy.m in Sources */,
+				CFB27FE9486E11EB8B346B17F2E3F2DA /* GradientImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03A8B0E77F765B2B2FFFBD79769598FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GradientImage;
+			target = 9AE0E3351F6BE98427394E579E421D82 /* GradientImage */;
+			targetProxy = D057A20B3A857CB80EF351527D354F13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CEF9AD7D97134F4F50A2E0E4F1CAA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE9DB50769A4D0CFBBC3A351F66543A /* Pods-GradientImage_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GradientImage_Example/Pods-GradientImage_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GradientImage_Example/Pods-GradientImage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C5F63D6A0802C9566100EA77A0B64A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C878F72763B6F5712859B5029268995 /* GradientImage.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GradientImage/GradientImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientImage/GradientImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GradientImage/GradientImage.modulemap";
+				PRODUCT_MODULE_NAME = GradientImage;
+				PRODUCT_NAME = GradientImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F2AC7EE4CFBF67D2F70A682008BCCCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AA8E6B9B7C4B700CC2EE3B71A016E3 /* Pods-GradientImage_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GradientImage_Example/Pods-GradientImage_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GradientImage_Example/Pods-GradientImage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9311D16571045188D3D6E18C97B0C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB30121F64F955AEE3463E5A347FACCE /* GradientImage.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GradientImage/GradientImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientImage/GradientImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GradientImage/GradientImage.modulemap";
+				PRODUCT_MODULE_NAME = GradientImage;
+				PRODUCT_NAME = GradientImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051D83F203F68B78F4D4B663FC781803 /* Build configuration list for PBXNativeTarget "GradientImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9311D16571045188D3D6E18C97B0C9F /* Debug */,
+				C5F63D6A0802C9566100EA77A0B64A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4C7B3102699740F63412683CE9ED6E /* Build configuration list for PBXNativeTarget "Pods-GradientImage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AC7EE4CFBF67D2F70A682008BCCCA9 /* Debug */,
+				6CEF9AD7D97134F4F50A2E0E4F1CAA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

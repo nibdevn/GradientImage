@@ -1,15 +1,30 @@
+
 # GradientImage
 
-[![CI Status](https://img.shields.io/travis/nibdevn@gmail.com/GradientImage.svg?style=flat)](https://travis-ci.org/nibdevn@gmail.com/GradientImage)
-[![Version](https://img.shields.io/cocoapods/v/GradientImage.svg?style=flat)](https://cocoapods.org/pods/GradientImage)
-[![License](https://img.shields.io/cocoapods/l/GradientImage.svg?style=flat)](https://cocoapods.org/pods/GradientImage)
-[![Platform](https://img.shields.io/cocoapods/p/GradientImage.svg?style=flat)](https://cocoapods.org/pods/GradientImage)
+![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/nibdevn/GradientImage/blob/master/LICENSE)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Summary
+
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Example](#example)
 
 ## Requirements
+
+- Swift 4.2
+- iOS 10.0+
+
+## Usage
+
+```swift
+let gradientImage = GradientImage(frame: CGRect, colors: [UIColor]).setLocations(locations: [NSNumber]).image
+
+let imageView = UIImageView(frame: CGRect)
+imageView.image = gradientImage
+```
 
 ## Installation
 
@@ -17,13 +32,17 @@ GradientImage is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GradientImage'
+pod 'GradientImage', :tag => '1.0.0', :git => 'https://github.com/nibdevn/GradientImage'
 ```
 
-## Author
+## Example
 
-nibdevn@gmail.com, nibdevn@gmail.com
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## License
 
-GradientImage is available under the MIT license. See the LICENSE file for more info.
+These works are available under the MIT license. See the [LICENSE][license] file
+for more info.
+
+
+[license]: LICENSE

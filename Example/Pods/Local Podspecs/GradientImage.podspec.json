@@ -1,0 +1,24 @@
+{
+  "name": "GradientImage",
+  "version": "1.0.0",
+  "summary": "This is GradientImage.",
+  "description": "This is GradientImage. Easy Use Gradient Color Image",
+  "homepage": "https://github.com/nibdevn/GradientImage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nahanwoong": "nibdevn@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nibdevn/GradientImage.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "GradientImage/Sources/**/*",
+  "swift_version": "4.2"
+}
