@@ -15,15 +15,10 @@ class ColorCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-    }
-    
-    override func draw(_ rect: CGRect) {
         colorImageView.layer.cornerRadius = 5
     }
     
-    
-    func configurate(_ gradient: GradientImage) {
+    func configurate(_ gradient: Gradient) {
         colorImageView.image = gradient.image
     }
 }

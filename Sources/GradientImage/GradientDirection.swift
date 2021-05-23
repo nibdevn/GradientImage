@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit
 
 public enum GradientDirection {
@@ -9,6 +10,14 @@ public enum GradientDirection {
 }
 
 public extension GradientDirection {
+    
+    /**
+     # Gradient Start Point
+        - top ->    CGPoint(x: 0.5, y: 1.0)
+        - left ->   CGPoint(x: 1.0, y: 0.5)
+        - right ->  CGPoint(x: 0.0, y: 0.5)
+        - bottom -> CGPoint(x: 0.5, y: 0.0)
+     */
     var startPoint: CGPoint {
         switch self {
         case .top: return CGPoint(x: 0.5, y: 1.0)
@@ -20,7 +29,14 @@ public extension GradientDirection {
             return CGPoint(x: 0.5 * (cos(radian + .pi) + 1), y: 0.5 * (1 + sin(radian)))
         }
     }
-
+    
+    /**
+     # Gradient Start Point
+        - top ->    CGPoint(x: 0.5, y: 1.0)
+        - left ->   CGPoint(x: 0.0, y: 0.5)
+        - right ->  CGPoint(x: 1.0, y: 0.5)
+        - bottom -> CGPoint(x: 0.5, y: 1.0)
+     */
     var endPoint: CGPoint {
         switch self {
         case .top: return CGPoint(x: 0.5, y: 0.0)
@@ -33,3 +49,4 @@ public extension GradientDirection {
         }
     }
 }
+#endif

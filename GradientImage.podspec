@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GradientImage'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'This is GradientImage.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.2'
-  s.source_files = 'GradientImage/Sources/**/*'
+  s.source_files = 'Sources/GradientImage/**/*'
   
   # s.resource_bundles = {
   #   'GradientImage' => ['GradientImage/Assets/*.png']

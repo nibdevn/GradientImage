@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         var minimumLineSpacingForSectionAt: CGFloat { return 10 }
         var minimumInteritemSpacingForSectionAt: CGFloat { return 10 }
         var sizeForItemAt: CGSize {
-            let width = (UIScreen.main.bounds.width - insetForSectionAt.left - insetForSectionAt.right - minimumInteritemSpacingForSectionAt) / 2
+            let width = (UIScreen.main.bounds.width - insetForSectionAt.left - insetForSectionAt.right - minimumInteritemSpacingForSectionAt) * 0.5
             return CGSize(width: width, height: width)
         }
     }
@@ -49,9 +49,9 @@ class ViewController: UIViewController {
         collectionView.delegate = self
     }
     
-    private func getGradientImage(colors: [UIColor]) -> GradientImage {
+    private func getGradientImage(colors: [UIColor]) -> Gradient {
         let rect = CGRect(origin: .zero, size: option.sizeForItemAt)
-        return GradientImage(frame: rect, direction: .degree(270), colors: colors, locations: [0, 1])
+        return Gradient(frame: rect, direction: .degree(270), colors: colors)
     }
 }
 

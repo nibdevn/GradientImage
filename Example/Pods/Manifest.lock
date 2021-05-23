@@ -1,5 +1,5 @@
 PODS:
-  - GradientImage (1.0.0)
+  - GradientImage (2.0.0)
 
 DEPENDENCIES:
   - GradientImage (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GradientImage: e3a961b1fea7e8b7e14d4c18c99e9d4b230b8601
+  GradientImage: efe967360fa70d030ba9df97702a038ba75e8448
 
 PODFILE CHECKSUM: 2cf21d9deb0c3631125d7147f8b211532bb645fb
 

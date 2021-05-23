@@ -1,6 +1,6 @@
 {
   "name": "GradientImage",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "summary": "This is GradientImage.",
   "description": "This is GradientImage. Easy Use Gradient Color Image",
   "homepage": "https://github.com/nibdevn/GradientImage",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/nibdevn/GradientImage.git",
-    "tag": "1.0.0"
+    "tag": "2.0.0"
   },
   "platforms": {
     "ios": "10.0"
   },
   "swift_versions": "4.2",
-  "source_files": "GradientImage/Sources/**/*",
+  "source_files": "Sources/GradientImage/**/*",
   "swift_version": "4.2"
 }
